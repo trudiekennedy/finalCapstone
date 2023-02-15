@@ -1,0 +1,110 @@
+/* Header and body styling */
+
+header {
+  padding: 4em;
+  margin: 0 0.5em;
+  background: rgb(145,95,158);
+  background: linear-gradient(69deg, rgba(145,95,158,1) 0%, rgba(213,142,191,1) 57%, rgba(241,223,211,1) 100%);
+  border-radius: 0.5em;
+}
+
+body {
+  background-color: whitesmoke;
+}
+
+/* Font styling for main heading "greetly" */
+
+h1 {
+  font-family: 'Flamenco', cursive;
+  font-weight: bolder;
+  font-size: 5em;
+  color: #FFBCD3;
+  letter-spacing: 0.1em;
+}
+
+/* Font styling for h5 sized headings */
+
+h5 {
+  font-family: 'Flamenco', cursive;
+  font-weight: bolder;
+  color: #65446f;
+  letter-spacing: 0.1em;
+}
+
+/* Styling for paragraph in header */
+
+header p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #65446f;
+  font-size: 1em;
+  letter-spacing: -0.05em;
+  background: rgba(241,223,211,0.20);
+  border-radius: 1em;
+  padding: 0.5em;
+  
+}
+
+/* Paragraph font styling */
+
+p {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 600;
+  color: #65446f;
+  font-size: 1em;
+  letter-spacing: -0.05em;
+}
+
+/* Changing the button colours */
+
+.btn-primary {
+  background-color: rgba(145,95,158,1) ;
+  border: #65446f;
+}
+
+.btn-primary:hover {
+  background-color: #65446f;
+}
+
+/* Image hover effect. Reduces the scale to 95%, rounds corners and reduces opacity.
+Reference re scale: https://www.quackit.com/css/properties/webkit/css_-webkit-transform.cfm#:~:text=The%20CSS%20%2Dwebkit%2Dtransform%20property,%2C%20skew%20them%2C%20and%20more */
+
+.card-img-top{
+  transition: 1s ease;
+}
+
+.card-img-top:hover{
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  transition: 1s ease;
+  border-radius: 10%;
+  opacity: 75%;
+}
+
+/* Resizing logo img */
+
+.logo {
+  width: 20%;
+  height: auto;
+  border-radius: 0.5em;
+  margin: 0.5em; 
+}
+
+/* Footer and contact form formatting to make the form a horizontal form*/
+.form-container {
+  display: flex;
+  margin: 0.25em;
+  
+}
+
+.form-inline {
+  display: flex;
+  padding: 0 0.25em;
+}
+
+footer {
+  background: rgb(145,95,158);
+  background: linear-gradient(69deg, rgba(145,95,158,1) 0%, rgba(213,142,191,1) 57%, rgba(241,223,211,1) 100%);
+  border-radius: 0.5em;
+}
