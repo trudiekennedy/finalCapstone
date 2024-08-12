@@ -1,4 +1,4 @@
-# finalCapstone
+# Bootcamp projects
 There are three projects in this repository, created as part of my bootcamp course: 
 - Inventory
 - GreetlySite
